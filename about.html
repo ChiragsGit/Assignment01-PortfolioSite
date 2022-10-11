@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /*all images will be this specific size on page*/
+        img {
+            width: 300px;
+        }
+    </style>
+
+    <style>
+        /*changed navigation bar to make it look pretty*/
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(105, 105, 105);
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        nav li a:hover {
+            background-color: rgb(30, 135, 255);
+        }
+
+        .active {
+            background-color: #a361d8;
+            /* Shows which is the Active Navigation Link */
+        }
+    </style>
+
+    <style>
+        /* Default colors */
+        body {
+            --text-color: #222;
+            --bkg-color: #fff;
+        }
+
+        /* Dark theme colors */
+        body.dark-theme {
+            --text-color: #eee;
+            --bkg-color: #121212;
+        }
+
+        /* Styles for users who prefer dark mode at the OS level */
+        @media (prefers-color-scheme: dark) {
+
+            /* defaults to dark theme */
+            body {
+                --text-color: #eee;
+                --bkg-color: #121212;
+            }
+
+            /* Override dark mode with light mode styles if the user decides to swap */
+            body.light-theme {
+                --text-color: #222;
+                --bkg-color: #fff;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="./">About Me</a>
+                </li>
+
+                <li>
+                    <a href="./contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>About Me</h1>
+
+    </header>
+
+    <main>
+        <header>
+            <h2>Interests</h2>
+            <ul>
+                <li>I have been enjoying learning HTML and CSS, would love to see what a typical day looks like for a
+                    front end developer.</li>
+                <li>Learning how an arduino board works and how we can program them to do what we want.</li>
+                <li>Very interested to know how cyber security works.</li>
+                <li>Love listening to music, it helps me focus and concentrate on my tasks.</li>
+                <li>I enjoy knowing how things work, I will go out of my way to take things apart just to put them back
+                    together.</li>
+                <li>I am really into photography, it has taught me patience and how to overcome challenges</li>
+            </ul>
+
+            <h2>Skills</h2>
+                <ul>
+                    <li>I have taught myself how to professionally edit photos I have taken via Adobe Lightroom.</li>
+                    <li>I am a very curious person in a way where I like to know how things work behind the scenes standpoint for example from things as small as pens to taking apart dishwasher.</li>
+                    <li>I am very proficient at problem solving.</li>
+                    <li>I am a very patient person, especially when explaining the steps I have taken to resolve a problem to a co-worker or friends.</li>
+                    <li>I am very much of a team player, I enjoy bouncing ideas off others in term to resolve an issue faster for team success.</li>
+                </ul>
+        </header>
+
+    </main>
+
+    <footer> &copy;2022 Chirag Sabharwal</footer>
+
+
+</body>
+
+
+
+</html>

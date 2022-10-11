@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /*all images will be this specific size on page*/
+        img {
+            width: 300px;
+        }
+    </style>
+
+
+
+    <style>
+        /*changed navigation bar to make it look pretty*/
+       nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(105, 105, 105);
+        }
+
+       nav li {
+            float: left;
+        }
+
+       nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+       nav li a:hover {
+            background-color: rgb(30, 135, 255);
+        }
+
+        .active {
+            background-color: #a361d8;
+            /* Shows which is the Active Navigation Link */
+        }
+    </style>
+
+    <style>
+        /* Default colors */
+        body {
+            --text-color: #222;
+            --bkg-color: #fff;
+        }
+
+        /* Dark theme colors */
+        body.dark-theme {
+            --text-color: #eee;
+            --bkg-color: #121212;
+        }
+
+        /* Styles for users who prefer dark mode at the OS level */
+        @media (prefers-color-scheme: dark) {
+
+            /* defaults to dark theme */
+            body {
+                --text-color: #eee;
+                --bkg-color: #121212;
+            }
+
+            /* Override dark mode with light mode styles if the user decides to swap */
+            body.light-theme {
+                --text-color: #222;
+                --bkg-color: #fff;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+
+                <li>
+                    <a href="./about.html">About Me</a>
+                </li>
+
+                <li>
+                    <a href="./contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Home</h1>
+
+        <img src="./Chirag.jpg" alt="A selfie of Chirag Sabharwal">
+
+    </header>
+
+    <main>
+        <section>
+            <p>Hello, my name is Chirag Sabharwal and welcome to my page.</p>
+        </section>
+</main>
+<body>
+    
+
+        <section>
+          <ul>
+            <li>I am currently enrolled in Georgian College for Computer Programming.</li>
+            <li>I come from a business background as I have graduated from Lakehead University with a BComm in 2019.</li>
+            <li>I am looking forward to getting real life experience and have more tools under my belt.</li>
+          </ul>
+
+        </section>
+</body>
+
+    <footer> &copy;2022 Chirag Sabharwal</footer>
+
+</body>
+
+</html>
